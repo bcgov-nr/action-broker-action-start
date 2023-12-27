@@ -12,7 +12,7 @@ Please refer to the [NR Broker Repository](https://github.com/bcgov-nr/nr-broker
 
 <!-- start usage -->
 ```yaml
-- uses: bcgov-nr/action-broker-intention-close@v1
+- uses: bcgov-nr/action-broker-action-start@v1
   with:
     # The token of the action to start
     action_token: ''
