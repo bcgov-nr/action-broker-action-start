@@ -1,0 +1,25 @@
+name: NR Broker action start action
+description: Starts an intention action
+branding:
+  icon: package
+  color: blue
+
+inputs:
+  action_token:
+    description: The token of the action to start
+    required: true
+  broker_url:
+    default: https://nr-broker.apps.silver.devops.gov.bc.ca
+    description: The broker url.
+
+runs:
+  using: "composite"
+  steps:
+    - shell: bash
+      run: echo "${{ github.action_path }}" >> $GITHUB_PATH
+    - id: broker-action-start
+      shell: bash
+      env:
+        ACTION_TOKEN: ${{ inputs.action_token }}
+        BROKER_URL: ${{ inputs.broker_url }}
+      run: action-start.sh
