@@ -4,7 +4,7 @@ This action starts an action, so progress with an intention can be tracked.
 
 If you encounter an error, ensure that the Broker URL is correct and that the intention was not automatically closed at the end of the time to live (ttl) period.
 
-# Broker Documention
+# Broker Documentation
 
 Please refer to the [NR Broker Repository](https://github.com/bcgov-nr/nr-broker) for full usage details.
 
