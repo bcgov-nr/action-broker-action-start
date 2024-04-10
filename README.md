@@ -18,7 +18,7 @@ Please refer to the [NR Broker Repository](https://github.com/bcgov-nr/nr-broker
     action_token: ''
 
     # The broker url.
-    # Default: 'https://nr-broker.apps.silver.devops.gov.bc.ca'
+    # Default: 'https://broker.io.nrs.gov.bc.ca'
     broker_url: ''
 ```
 <!-- end usage -->
