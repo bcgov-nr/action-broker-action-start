@@ -1,4 +1,4 @@
-# Broker Action Start V1
+# Broker Action Start V2
 
 This action starts an action, so progress with an intention can be tracked.
 
@@ -12,7 +12,7 @@ Please refer to the [NR Broker Repository](https://github.com/bcgov-nr/nr-broker
 
 <!-- start usage -->
 ```yaml
-- uses: bcgov-nr/action-broker-action-start@v1
+- uses: bcgov-nr/action-broker-action-start@v2
   with:
     # The token of the action to start
     action_token: ''
